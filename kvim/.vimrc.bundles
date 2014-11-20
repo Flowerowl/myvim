@@ -504,4 +504,6 @@ Bundle 'Glench/Vim-Jinja2-Syntax'
 " Bundle "thinca/vim-quickrun"
 " nnoremap <F10> :QuickRun<cr>
 
+"###### Ag #####
+Bundle 'rking/ag.vim'
 "------------------------------------------- end of configs --------------------------------------------
