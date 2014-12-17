@@ -93,8 +93,8 @@ set t_ti= t_te=
 
 
 "- 则点击光标不会换,用于复制
-set mouse-=a             " 鼠标暂不启用, 键盘党....
-" set mouse=a                 " Automatically enable mouse usage
+" set mouse-=a             " 鼠标暂不启用, 键盘党....
+set mouse=a                 " Automatically enable mouse usage
 " set mousehide               " Hide the mouse cursor while typing
 
 
@@ -239,16 +239,6 @@ set formatoptions+=B
 "==========================================
 " others 其它设置
 "==========================================
-"Airline
-let g:airline_powerline_fonts = 1
-"show only filename
-
-let g:airline#extensions#tabline#left_sep = ''
-let g:airline_left_alt_sep =''
-let g:airline_left_sep = ''
-let g:airline_right_sep = ''
-let g:airline_theme='wombat'
-
 autocmd! bufwritepost _vimrc source % " vimrc文件修改之后自动加载。 windows。
 autocmd! bufwritepost .vimrc source % " vimrc文件修改之后自动加载。 linux。
 
@@ -569,3 +559,5 @@ highlight clear SpellRare
 highlight SpellRare term=underline cterm=underline
 highlight clear SpellLocal
 highlight SpellLocal term=underline cterm=underline
+
+
